@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.manager.TicketManagerTest" time="0.062" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Vasily\Desktop\Ticket\target\test-classes;C:\Users\Vasily\Desktop\Ticket\target\classes;C:\Users\Vasily\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Vasily\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\Vasily\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Vasily\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Vasily\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Vasily\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Vasily\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\Vasily\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Vasily\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Vasily\.m2\repository\org\mockito\mockito-junit-jupiter\3.3.3\mockito-junit-jupiter-3.3.3.jar;C:\Users\Vasily\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\Vasily\.m2\repository\net\bytebuddy\byte-buddy\1.10.5\byte-buddy-1.10.5.jar;C:\Users\Vasily\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.5\byte-buddy-agent-1.10.5.jar;C:\Users\Vasily\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Vasily\AppData\Local\Temp\surefire14581237426491410353\surefirebooter5265595533777040161.jar C:\Users\Vasily\AppData\Local\Temp\surefire14581237426491410353 2021-05-07T20-10-16_930-jvmRun1 surefire2539899255696102468tmp surefire_09274482626412153609tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Vasily\Desktop\Ticket\target\test-classes;C:\Users\Vasily\Desktop\Ticket\target\classes;C:\Users\Vasily\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Vasily\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\Vasily\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Vasily\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Vasily\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Vasily\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Vasily\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\Vasily\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Vasily\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Vasily\.m2\repository\org\mockito\mockito-junit-jupiter\3.3.3\mockito-junit-jupiter-3.3.3.jar;C:\Users\Vasily\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\Vasily\.m2\repository\net\bytebuddy\byte-buddy\1.10.5\byte-buddy-1.10.5.jar;C:\Users\Vasily\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.5\byte-buddy-agent-1.10.5.jar;C:\Users\Vasily\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Vasily"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Vasily\Desktop\Ticket"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vasily\AppData\Local\Temp\surefire14581237426491410353\surefirebooter5265595533777040161.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+9"/>
+    <property name="user.name" value="Vasily"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\Vasily\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vasily\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="C:\Users\Vasily\Desktop\Ticket"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Vasily\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.10+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="searchAllTickets" classname="ru.netology.manager.TicketManagerTest" time="0.047"/>
+  <testcase name="searchSortNoTicket" classname="ru.netology.manager.TicketManagerTest" time="0"/>
+  <testcase name="searchSortTicket" classname="ru.netology.manager.TicketManagerTest" time="0.015"/>
+</testsuite>
