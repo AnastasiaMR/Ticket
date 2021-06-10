@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import ru.netology.domain.Ticket;
 import ru.netology.repository.TicketRepository;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class TicketManagerTest {
@@ -21,22 +23,19 @@ class TicketManagerTest {
 
     @Test
     void searchSortTicket() {
-        repository.save(t7);;
+        repository.save(t7);
 
         TicketManager manager = new TicketManager(repository);
         Ticket[] expected = new Ticket[]{t7};
         Ticket[] actual = manager.searchBy("MDR", "CVF");
-
         assertArrayEquals(expected, actual);
     }
 
     @Test
     void searchSortNoTicket() {
-
         TicketManager manager = new TicketManager(repository);
         Ticket[] expected = new Ticket[]{};
         Ticket[] actual = manager.searchBy("KRN", "AAR");
-
         assertArrayEquals(expected, actual);
     }
 
@@ -48,8 +47,20 @@ class TicketManagerTest {
         TicketManager manager = new TicketManager(repository);
         Ticket[] expected = new Ticket[]{t2, t3};
         Ticket[] actual = manager.searchBy("DEM", "LPF");
-
         Assertions.assertArrayEquals(expected, actual);
     }
 
+    @Test
+    void sortTicket() {
+        repository.save(t1);
+        repository.save(t2);
+        repository.save(t3);
+        repository.save(t4);
+        repository.save(t5);
+
+        Ticket[] actual = new Ticket[]{t5, t3, t1, t2, t4};
+        Ticket[] expected = new Ticket[]{t1, t2, t3, t4, t5};
+        Arrays.sort(actual);
+        assertArrayEquals(expected, actual);
+    }
 }
