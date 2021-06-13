@@ -60,8 +60,7 @@ class TicketManagerTest {
 
         TicketManager manager = new TicketManager( repository );
         Ticket[] actual = manager.searchBy( "LED", "AAR" );
-        Ticket[] expected = new Ticket[]{t1, t4, t5, t6, t8};
-        Arrays.sort( expected );
+        Ticket[] expected = new Ticket[]{t6, t1, t4, t5, t8};
         assertArrayEquals( expected, actual );
     }
 }
